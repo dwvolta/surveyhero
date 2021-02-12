@@ -345,7 +345,8 @@ input .js-question-form {
 #questionnaire-body .input-wrapper.selected,
 #questionnaire-body .image-choice-content.selected .image-choice-image:checked,
 #questionnaire-body .mc-answer.selected .input-wrapper {
- border: 1px solid #5c666e;
+ background: #002d5a;
+border: 7px solid #fff;
 }
 
 #questionnaire-body .mc-answer.selected .input-wrapper .svg-icon {
@@ -353,7 +354,7 @@ input .js-question-form {
 }
 
 .mc-answer.selected {
-	border-radius: 0%;
+   border-radius: 0%;
    border: 1px solid #5c666e;
    background: white;
    left: 0px !important;
@@ -368,17 +369,15 @@ input .js-question-form {
    height: 20px;
 }
 
-.checkbox-btn .svg-icon-tick{
-visibility: visible !important;
+.mc-answer.selected .input-wrapper.checkbox-btn {
+   border: 1px solid #5c666e !important;
+   background: white !important;
+   left: 0px !important;
 }
 
-.checkbox-btn  .input-wrapper .svg-icon {
-width: 12.2px;
-height: 9.7px;
-display: none;
-position: relative;
-top: 5px;
-left: 4px;
+
+.checkbox-btn .svg-icon-tick{
+visibility: visible !important;
 }
 
 .input-wrapper.radio-btn {
@@ -397,8 +396,8 @@ left: 4px;
  position: absolute;
  pointer-events: none;
  left: -7px !important;
-   width: 22px;
-   height: 22px;
+ width: 22px;
+ height: 22px;
  top: -7px;
 }
 
